@@ -1,0 +1,49 @@
+{
+  "extractedFields" : {
+    "policyInfo" : {
+      "policyNumber" : "PA-2024-001234",
+      "policyholderName" : null,
+      "effectiveDate" : null,
+      "naicCode" : "12345",
+      "lineOfBusiness" : "Personal Auto"
+    },
+    "incidentInfo" : {
+      "dateOfLoss" : "01/10/2024",
+      "timeOfLoss" : "2:30 PM",
+      "location" : ", Springfield, IL 62701, Springfield, IL 62702",
+      "description" : "Vehicle traveling southbound on Main Street when another vehicle ran a red light at Main and Elm",
+      "reportNumber" : "SPD-2024-0056",
+      "policeDepartmentContacted" : null
+    },
+    "involvedParties" : {
+      "driverName" : null,
+      "driverAddress" : null,
+      "driverPhone" : null,
+      "ownerName" : null,
+      "ownerAddress" : null,
+      "ownerPhone" : null,
+      "witnesses" : null,
+      "injuredParties" : null
+    },
+    "assetDetails" : {
+      "assetType" : "Vehicle",
+      "vin" : "",
+      "make" : "Toyota",
+      "model" : "Camry",
+      "year" : "2020",
+      "plateNumber" : "ABC1234",
+      "state" : "",
+      "damageDescription" : null,
+      "estimatedDamage" : null
+    },
+    "otherFields" : {
+      "claimType" : "Automobile - Property Damage",
+      "attachments" : null,
+      "agencyName" : "ABC Insurance Agency",
+      "agencyContact" : null
+    }
+  },
+  "missingFields" : [ "Policyholder Name", "Estimated Damage Amount" ],
+  "recommendedRoute" : "Manual Review",
+  "reasoning" : "Missing mandatory fields: Policyholder Name, Estimated Damage Amount. "
+}

@@ -1,0 +1,49 @@
+{
+  "extractedFields" : {
+    "policyInfo" : {
+      "policyNumber" : "POL123456789",
+      "policyholderName" : null,
+      "effectiveDate" : null,
+      "naicCode" : "",
+      "lineOfBusiness" : null
+    },
+    "incidentInfo" : {
+      "dateOfLoss" : "03/12/2023",
+      "timeOfLoss" : "",
+      "location" : null,
+      "description" : null,
+      "reportNumber" : "HYD2023ACC1234",
+      "policeDepartmentContacted" : null
+    },
+    "involvedParties" : {
+      "driverName" : null,
+      "driverAddress" : null,
+      "driverPhone" : null,
+      "ownerName" : null,
+      "ownerAddress" : null,
+      "ownerPhone" : null,
+      "witnesses" : null,
+      "injuredParties" : null
+    },
+    "assetDetails" : {
+      "assetType" : "Vehicle",
+      "vin" : "",
+      "make" : "Hyundai",
+      "model" : "Creta",
+      "year" : "2020",
+      "plateNumber" : "TS09AB1234",
+      "state" : "",
+      "damageDescription" : null,
+      "estimatedDamage" : 2500.0
+    },
+    "otherFields" : {
+      "claimType" : "Automobile - Property Damage",
+      "attachments" : null,
+      "agencyName" : "Sri Krishna Insurance Agency",
+      "agencyContact" : "Contact"
+    }
+  },
+  "missingFields" : [ "Policyholder Name", "Location of Loss", "Description of Accident" ],
+  "recommendedRoute" : "Manual Review",
+  "reasoning" : "Missing mandatory fields: Policyholder Name, Location of Loss, Description of Accident. "
+}
